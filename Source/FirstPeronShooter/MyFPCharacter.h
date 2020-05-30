@@ -30,9 +30,9 @@ public:
 
 private:
 	void HorizontalMove(float value);
-	void VerticleMove(float value);
+	void VerticalMove(float value);
 	void HorizontalTurn(float value);
-	void VerticleTurn(float value);
+	void VerticalTurn(float value);
 
 	UPROPERTY(EditAnywhere, Category = "Camera")
 		UCameraComponent* cam;
